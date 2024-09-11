@@ -19,4 +19,4 @@ def get_limits(color):
         lowerLimit = np.array([hue - 10, 100, 100], dtype=np.uint8)
         upperLimit = np.array([hue + 10, 255, 255], dtype=np.uint8)
 
-    return lowerLimit, upperLimit
+    return (lowerLimit, upperLimit)
